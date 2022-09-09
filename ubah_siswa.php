@@ -63,6 +63,8 @@ echo '<option value="'.$data_kelas['id_kelas'].'" '.$selek.'>'.$data_kelas['nama
         <input type="text" name="username" value="<?=$dt_siswa['username']?>" class="form-control">
         Password : 
         <input type="password" name="password" value="" class="form-control">
+
+        
         <input type="submit" name="simpan" value="Ubah Siswa" class="btn btn-primary">
        </form>
 

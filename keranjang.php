@@ -14,7 +14,7 @@
             <tr>
                 <td><?=($key_produk+1)?></td><td><?=$val_produk['nama_buku']?></td><td><?=$val_produk['qty']?></td><td><a href="hapus_cart.php?id=<?=$key_produk?>" class="btn btn-danger"><strong>X</strong></a></td>
             </tr>
-
+ 
         <?php endforeach ?>
     </tbody>
 </table>

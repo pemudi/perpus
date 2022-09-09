@@ -7,10 +7,10 @@
 <h2>Pinjam Buku</h2>
 <div class="row">
     <div class="col-md-4">
-        <img src="assets/foto_produk/<?=$dt_buku['foto']?>" class="card-img-top">
+        <img src="foto/<?=$dt_buku['foto']?>" class="card-img-top">
     </div>
     <div class="col-md-8">
-        <form action="masukkankeranjang.php?id_buku=<?=$dt_buku['id_buku']?>" method="post">
+        <form action="masukkan_keranjang.php?id_buku=<?=$dt_buku['id_buku']?>" method="post">
             <table class="table table-hover table-striped">
                 <thead>
                     <tr>
@@ -29,7 +29,8 @@
             </table>
         </form>
     </div>
-</div>
+    </div>
 <?php 
     include "footer.php";
 ?>
+

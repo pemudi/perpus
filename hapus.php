@@ -7,5 +7,5 @@
         } else {
             echo "<script>alert('Gagal Hapus Siswa');location.href='tampil_siswa.php';</script>";
         }
-    }//href: javascript untuk membnatu pindah page
+    }//href: javascript untuk membantu pindah page
 ?>
